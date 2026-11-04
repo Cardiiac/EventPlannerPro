@@ -2,10 +2,11 @@
 //  EventPlannerProApp.swift
 //  EventPlannerPro
 //
-//  Created by user301904 on 11/4/26.
+//  Created for Evaluación Continua PA3 - Pregunta 4
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct EventPlannerProApp: App {
@@ -13,5 +14,6 @@ struct EventPlannerProApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: EventItem.self)
     }
 }

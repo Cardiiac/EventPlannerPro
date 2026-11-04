@@ -2,24 +2,18 @@
 //  ContentView.swift
 //  EventPlannerPro
 //
-//  Created by user301904 on 11/4/26.
+//  Created for Evaluación Continua PA3 - Pregunta 4
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        EventListView()
     }
 }
 
 #Preview {
     ContentView()
+        .modelContainer(for: EventItem.self, inMemory: true)
 }
-
