@@ -13,8 +13,3 @@ struct ContentView: View {
         EventListView()
     }
 }
-
-#Preview {
-    ContentView()
-        .modelContainer(for: EventItem.self, inMemory: true)
-}
