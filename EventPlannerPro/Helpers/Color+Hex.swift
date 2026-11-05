@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 extension Color {
     // Inicializador a partir de código Hex (#RRGGBB o #RRGGBBAA)
